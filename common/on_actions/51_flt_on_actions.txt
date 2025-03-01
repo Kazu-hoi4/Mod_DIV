@@ -1,0 +1,39 @@
+on_actions = {
+
+	on_startup = {
+		effect = {
+			JAP = {
+				set_variable = { JAP_INF_DIVISON_NUM = 16 }
+			}
+		}
+		effect = {
+			every_country = {
+				limit = {
+					NOT = { has_idea = great_depression }
+					NOT = { has_idea = great_depression_2 }
+					NOT = { has_idea = great_depression_3 }
+					NOT = { has_idea = depression_status }
+					NOT = { has_idea = calm_status }
+					NOT = { has_idea = boom_status }
+					NOT = { has_idea = great_boom_3 }
+					NOT = { has_idea = great_boom_2 }
+					NOT = { has_idea = great_boom }
+				}
+				add_ideas = calm_status
+			}
+		}
+	}
+
+	on_daily_JAP = {
+		effect = {
+			clear_variable = add_new_division_num
+			set_variable = { add_new_division_num = ROOT.num_divisions }
+			delete_unit = {
+				division_template = "Hohei Yobi Shidan"
+			}
+			subtract_from_variable = { add_new_division_num = ROOT.num_divisions }
+			jap_create_new_division = yes
+		}
+	}
+
+}

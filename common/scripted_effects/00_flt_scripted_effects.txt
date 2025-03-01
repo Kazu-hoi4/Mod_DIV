@@ -1,0 +1,130 @@
+jap_create_new_division = {
+	if = {
+		limit = {
+			AND = {
+				check_variable = { JAP_INF_DIVISON_NUM = 16 }
+				check_variable = { add_new_division_num > 0 }
+			}
+		}
+		282 = {
+			create_unit = {
+				id = 13
+				division = "name = \"第13師団\" division_template = \"Hohei Shidan\""
+				owner = ROOT
+				officer = {
+					name = "荻洲立兵"
+				}
+				officer = {
+					name = "田中静壱"
+				}
+				officer = {
+					name = "内山英太郎"
+				}
+				officer = {
+					name = "赤鹿理"
+				}
+				officer = {
+					name = "吉田峯太郎"
+				}
+			}
+		}
+		add_to_variable = { JAP_INF_DIVISON_NUM = 1 }
+		subtract_from_variable = { add_new_division_num = 1 }
+	}
+	if = {
+		limit = {
+			AND = {
+				check_variable = { JAP_INF_DIVISON_NUM = 17 }
+				check_variable = { add_new_division_num > 0 }
+			}
+		}
+		282 = {
+			create_unit = {
+				id = 18
+				division = "name = \"第18師団\" division_template = \"Hohei Shidan\""
+				owner = ROOT
+				officer = {
+					name = "牛島貞雄"
+				}
+				officer = {
+					name = "久納誠一"
+				}
+				officer = {
+					name = "百武晴吉"
+				}
+				officer = {
+					name = "牟田口廉也"
+				}
+				officer = {
+					name = "田中新一"
+				}
+				officer = {
+					name = "中永太郎"
+				}
+			}
+		}
+		add_to_variable = { JAP_INF_DIVISON_NUM = 1 }
+		subtract_from_variable = { add_new_division_num = 1 }
+	}
+	if = {
+		limit = {
+			AND = {
+				check_variable = { JAP_INF_DIVISON_NUM = 18 }
+				check_variable = { add_new_division_num > 0 }
+			}
+		}
+		282 = {
+			create_unit = {
+				id = 101
+				division = "name = \"第101師団\" division_template = \"Hohei Shidan\""
+				owner = ROOT
+				officer = {
+					name = "伊東政喜"
+				}
+				officer = {
+					name = "斎藤弥平太"
+				}
+			}
+		}
+		add_to_variable = { JAP_INF_DIVISON_NUM = 1 }
+		subtract_from_variable = { add_new_division_num = 1 }
+	}
+	if = {
+		limit = {
+			AND = {
+				check_variable = { JAP_INF_DIVISON_NUM = 19 }
+				check_variable = { add_new_division_num > 0 }
+			}
+		}
+		282 = {
+			create_unit = {
+				id = 26
+				division = "name = \"第26師団\" division_template = \"Hohei Shidan\""
+				owner = ROOT
+				officer = {
+					name = "後宮淳"
+				}
+				officer = {
+					name = "黒田重徳"
+				}
+				officer = {
+					name = "矢野音三郎"
+				}
+				officer = {
+					name = "柴山兼四郎"
+				}
+				officer = {
+					name = "佐伯文郎"
+				}
+				officer = {
+					name = "山県栗花生"
+				}
+				officer = {
+					name = "栗栖猛夫"
+				}
+			}
+		}
+		add_to_variable = { JAP_INF_DIVISON_NUM = 1 }
+		subtract_from_variable = { add_new_division_num = 1 }
+	}
+}

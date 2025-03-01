@@ -1,0 +1,970 @@
+division_template = {
+	name = "Konoe Shidan"
+	division_names_group = JAP_INF_01
+	priority = 2
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+		infantry = { x = 3 y = 0 }
+		infantry = { x = 3 y = 1 }
+		infantry = { x = 3 y = 2 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+		recon = { x = 0 y = 2 }
+		logistics_company = { x = 0 y = 3 }
+	}
+}
+
+division_template = {
+	name = "Hohei Yobi Shidan"
+	division_names_group = JAP_INF_01
+	
+	is_locked = yes
+	force_allow_recruiting = yes
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+		infantry = { x = 3 y = 0 }
+		infantry = { x = 3 y = 1 }
+		infantry = { x = 3 y = 2 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+		recon = { x = 0 y = 2 }
+		logistics_company = { x = 0 y = 3 }
+	}
+}
+
+division_template = {
+	name = "Hohei Shidan"
+	division_names_group = JAP_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+		infantry = { x = 3 y = 0 }
+		infantry = { x = 3 y = 1 }
+		infantry = { x = 3 y = 2 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+		recon = { x = 0 y = 2 }
+		logistics_company = { x = 0 y = 3 }
+	}
+}
+
+division_template = {
+	name = "Dokuritsu Konsei Ryodan Kou"
+	division_names_group = JAP_IMB_01
+	role = armor
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		light_armor = { x= 1 y = 0 }
+		light_armor = { x= 2 y = 0 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Dokuritsu Konsei Ryodan Otsu"
+	division_names_group = JAP_IMB_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		artillery_brigade = { x = 2 y = 0 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+		logistics_company = { x = 0 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Kihei Ryodan"
+	division_names_group = JAP_CAV_01
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 0 y = 3 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+		cavalry = { x = 1 y = 3 }
+	}
+}
+
+division_template = {
+	name = "Yasen Juhō-hei Ryodan"
+
+	regiments = {
+		artillery_brigade = { x = 0 y = 0 }
+		artillery_brigade = { x = 0 y = 1 }
+		artillery_brigade = { x = 1 y = 0 }
+		artillery_brigade = { x = 1 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Rikusen-tai"
+	division_names_group = JAP_MAR_01
+	priority = 2
+
+	regiments = {
+		marine = { x = 0 y = 0 }
+		marine = { x = 1 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Taiwan Shubi-tai"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Dokuritsu Shubi-tai"
+	division_names_group = JAP_GAR_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Dokuritsu Shubi-tai"
+	division_names_group = JAP_GAR_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+}
+
+units = {
+
+	division = { # 近衛師団
+		name = "Konoe Shidan"
+
+		location = 1182
+		division_template = "Konoe Shidan"
+
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.8
+		divisional_commander_xp = 1200
+
+		officer = {
+            name = JAP_toranosuke_hashimoto_GD
+            portraits = {
+                army = {
+					large = GFX_portrait_JAP_toranosuke_hashimoto_army
+					small = GFX_idea_JAP_toranosuke_hashimoto_army
+                }
+            }
+        }
+		officer = {
+            name = JAP_kiyoshi_katsuki_GD
+            portraits = {
+                army = {
+					large = GFX_portrait_JAP_kiyoshi_katsuki_army
+					small = GFX_idea_JAP_kiyoshi_katsuki_army
+                }
+            }
+        }
+		officer = {
+            name = JAP_toshizo_nishio_GD
+            portraits = {
+                army = {
+					large = GFX_portrait_JAP_toshizo_nishio_army
+					small = GFX_idea_JAP_toshizo_nishio_army
+                }
+            }
+        }
+		officer = {
+            name = JAP_sadakada_iida_GD
+            portraits = {
+                army = {
+					large = GFX_portrait_JAP_sadakada_iida_army
+					small = GFX_idea_JAP_sadakada_iida_army
+                }
+            }
+        }
+		officer = {
+            name = JAP_shojiro_iida_GD
+            portraits = {
+                army = {
+					large = GFX_portrait_JAP_shojiro_iida_army
+					small = GFX_idea_JAP_shojiro_iida_army
+                }
+            }
+        }
+		officer = {
+            name = JAP_takuma_nishimura_GD
+            portraits = {
+                army = {
+					large = GFX_portrait_JAP_takuma_nishimura_army
+					small = GFX_idea_JAP_takuma_nishimura_army
+                }
+            }
+        }
+		officer = {
+            name = JAP_akira_muto_GD
+            portraits = {
+                army = {
+					large = GFX_portrait_JAP_akira_muto_army
+					small = GFX_idea_JAP_akira_muto_army
+                }
+            }
+        }
+	}
+
+	division = { # 近衛師団 野戦重砲兵第4旅団
+		name = "Yasen Juhō-hei Dai 4 Ryodan"
+
+		location = 1182
+		division_template = "Yasen Juhō-hei Ryodan"
+		start_experience_factor = 0.4
+
+		officer = {
+            name = "藤江恵輔"
+        }
+	}
+
+	division = { # 近衛師団 騎兵第一旅団
+		name = "Kihei Dai 1 Ryodan"
+
+		location = 13150
+		division_template = "Kihei Ryodan"
+		start_experience_factor = 0.5
+
+		officer = {
+            name = "中山蕃"
+        }
+	}
+
+	division = { # 第1師団
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+
+		location = 1182
+		division_template = "Hohei Shidan"
+
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
+		divisional_commander_xp = 1000
+
+		officer = {
+            name = JAP_takeo_hori_1D
+            portraits = {
+                army = {
+					large = GFX_portrait_JAP_takeo_hori_army
+					small = GFX_idea_JAP_takeo_hori_army
+                }
+            }
+        }
+	}
+
+	division = { # 第一師団 野戦重砲兵第三旅団
+		name = "Yasen Juhō-hei Dai 3 Ryodan"
+
+		location = 1182
+		division_template = "Yasen Juhō-hei Ryodan"
+		start_experience_factor = 0.3
+
+		officer = {
+            name = "石田保道"
+        }
+	}
+
+	division = { # 第二師団
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+
+		division_template = "Hohei Shidan"
+		location = 7087
+
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
+		divisional_commander_xp = 1000
+
+		officer = {
+            name = JAP_yoshijiro_umezu_2D
+            portraits = {
+                army = {
+					large = GFX_portrait_JAP_yoshijiro_umezu_army
+					small = GFX_idea_JAP_yoshijiro_umezu_army
+                }
+            }
+        }
+		officer = {
+            name = JAP_yasuji_okamura_2D
+            portraits = {
+                army = {
+					large = GFX_portrait_JAP_yasuji_okamura_army
+					small = GFX_idea_JAP_yasuji_okamura_army
+                }
+            }
+        }
+		officer = {
+            name = JAP_touji_yasui_2D
+            portraits = {
+                army = {
+					large = GFX_portrait_JAP_touji_yasui_army
+					small = GFX_idea_JAP_touji_yasui_army
+                }
+            }
+        }
+		officer = {
+            name = JAP_teiichi_yoshimoto_2D
+            portraits = {
+                army = {
+					large = GFX_portrait_JAP_teiichi_yoshimoto_army
+					small = GFX_idea_JAP_teiichi_yoshimoto_army
+                }
+            }
+        }
+		officer = {
+            name = JAP_masao_maruyama_2D
+            portraits = {
+                army = {
+					large = GFX_portrait_JAP_masao_maruyama_army
+					small = GFX_idea_JAP_masao_maruyama_army
+                }
+            }
+        }
+		officer = {
+            name = JAP_seizaburo_okazaki_2D
+            portraits = {
+                army = {
+					large = GFX_portrait_JAP_seizaburo_okazaki_army
+					small = GFX_idea_JAP_seizaburo_okazaki_army
+                }
+            }
+        }
+		officer = {
+            name = JAP_takanobu_manaki_2D
+            portraits = {
+                army = {
+					large = GFX_portrait_JAP_takanobu_manaki_army
+					small = GFX_idea_JAP_takanobu_manaki_army
+                }
+            }
+        }
+	}
+
+	division = { # 第三師団
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+
+		location = 10433
+		division_template = "Hohei Shidan"
+
+		start_experience_factor = 0.5
+		divisional_commander_xp = 1000
+
+		officer = {
+            name = "石田保道"
+        }
+	}
+
+	division = { # 第三師団 野戦重砲兵第一旅団
+		name = "Yasen Juhō-hei Dai 1 Ryodan"
+
+		location = 7157
+		division_template = "Yasen Juhō-hei Ryodan"
+		start_experience_factor = 0.3
+
+		officer = {
+            name = "広野太吉"
+        }
+	}
+
+	division = { # 第三師団 騎兵第四旅団
+		name = "Kihei Dai 4 Ryodan"
+
+		location = 13150
+		division_template = "Kihei Ryodan"
+		start_experience_factor = 0.5
+
+		officer = {
+            name = "久納誠一"
+        }
+	}
+
+	division = { # 第四師団
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
+
+		location = 7072
+		division_template = "Hohei Shidan"
+
+		start_experience_factor = 0.3
+		divisional_commander_xp = 1000
+
+		officer = {
+            name = "建川美次"
+        }
+	}
+
+	division = { # 第五師団
+		division_name = {
+			is_name_ordered = yes
+			name_order = 5
+		}
+
+		location = 1092
+		division_template = "Hohei Shidan"
+
+		start_experience_factor = 0.3
+		divisional_commander_xp = 1000
+
+		officer = {
+            name = "林桂"
+        }
+	}
+
+	division = { # 第六師団
+		division_name = {
+			is_name_ordered = yes
+			name_order = 6
+		}
+
+		location = 11925
+		division_template = "Hohei Shidan"
+
+		start_experience_factor = 0.3
+		divisional_commander_xp = 1000
+	}
+
+	division = { # 第七師団
+		division_name = {
+			is_name_ordered = yes
+			name_order = 7
+		}
+
+		location = 12421
+		division_template = "Hohei Shidan"
+
+		start_experience_factor = 0.3
+		divisional_commander_xp = 1000
+
+		officer = {
+            name = JAP_okiie_usami_7D
+            portraits = {
+                army = {
+					large = GFX_portrait_JJAP_okiie_usami_army
+					small = GFX_idea_JAP_okiie_usami_army
+                }
+            }
+        }
+		officer = {
+            name = JAP_kazuo_mike_7D
+            portraits = {
+                army = {
+					large = GFX_portrait_JAP_kazuo_mike_army
+					small = GFX_idea_JAP_kazuo_mike_army
+                }
+            }
+        }
+		officer = {
+            name = JAP_waichiro_sonobe_7D
+            portraits = {
+                army = {
+					large = GFX_portrait_JAP_waichiro_sonobe_army
+					small = GFX_idea_JAP_waichiro_sonobe_army
+                }
+            }
+        }
+		officer = {
+            name = JAP_noboru_kunisaki_7D
+            portraits = {
+                army = {
+					large = GFX_portrait_JAP_noboru_kunisaki_army
+					small = GFX_idea_JAP_noboru_kunisaki_army
+                }
+            }
+        }
+		officer = {
+            name = JAP_gyouichi_koito_7D
+            portraits = {
+                army = {
+					large = GFX_portrait_JAP_gyouichi_koito_army
+					small = GFX_idea_JAP_gyouichi_koito_army
+                }
+            }
+        }
+	}
+
+	division = { # 第八師団
+		division_name = {
+			is_name_ordered = yes
+			name_order = 8
+		}
+
+		location = 6873
+		division_template = "Hohei Shidan"
+
+		start_experience_factor = 0.3
+		divisional_commander_xp = 1000
+
+		officer = {
+            name = "下元熊弥"
+        }
+	}
+
+	division = { # 第八師団 騎兵第三旅団
+		name = "Kihei Dai 3 Ryodan"
+
+		location = 10463
+		division_template = "Kihei Ryodan"
+		start_experience_factor = 0.5
+
+		officer = {
+            name = "鎌田正信"
+        }
+	}
+
+	division = { # 第九師団
+		division_name = {
+			is_name_ordered = yes
+			name_order = 9
+		}
+
+		location = 987
+		division_template = "Hohei Shidan"
+
+		start_experience_factor = 0.5
+		divisional_commander_xp = 1000
+
+		officer = {
+            name = "山岡重厚"
+        }
+	}
+
+	division = { # 第十師団
+		division_name = {
+			is_name_ordered = yes
+			name_order = 10
+		}
+
+		location = 12031
+		division_template = "Hohei Shidan"
+
+		start_experience_factor = 0.3
+		divisional_commander_xp = 1000
+
+		officer = {
+            name = "松浦淳六郎"
+        }
+	}
+
+	division = { # 第十一師団
+		division_name = {
+			is_name_ordered = yes
+			name_order = 11
+		}
+
+		location = 4094
+		division_template = "Hohei Shidan"
+
+		start_experience_factor = 0.3
+		divisional_commander_xp = 1000
+
+		officer = {
+            name = "田代皖一郎"
+        }
+	}
+
+	division = { # 第十二師団
+		division_name = {
+			is_name_ordered = yes
+			name_order = 12
+		}
+
+		location = 4164
+		division_template = "Hohei Shidan"
+
+		start_experience_factor = 0.3
+		divisional_commander_xp = 1000
+
+		officer = {
+            name = JAP_kiyoshi_katsuki_12D
+            portraits = {
+                army = {
+					large = GFX_portrait_JAP_kiyoshi_katsuki_army
+					small = GFX_idea_JAP_kiyoshi_katsuki_army
+                }
+            }
+        }
+		officer = {
+            name = JAP_yoshishige_shimizu_12D
+            portraits = {
+                army = {
+					large = GFX_portrait_JAP_yoshishige_shimizu_army
+					small = GFX_idea_JAP_yoshishige_shimizu_army
+                }
+            }
+        }
+	}
+
+	division = { # 第十二師団 野戦重砲兵第二旅団（所属）
+		name = "Yasen Juhō-hei Dai 2 Ryodan"
+
+		location = 1025
+		division_template = "Yasen Juhō-hei Ryodan"
+		start_experience_factor = 0.3
+	}
+
+	division = { # 第十四師団
+		division_name = {
+			is_name_ordered = yes
+			name_order = 14
+		}
+
+		location = 1113
+		division_template = "Hohei Shidan"
+
+		start_experience_factor = 0.3
+		divisional_commander_xp = 1000
+
+		officer = {
+            name = "末松茂治"
+        }
+	}
+
+	division = { # 第十六師団
+		division_name = {
+			is_name_ordered = yes
+			name_order = 16
+		}
+
+		location = 4506
+		division_template = "Hohei Shidan"
+
+		start_experience_factor = 0.5
+		divisional_commander_xp = 1000
+
+		officer = {
+            name = "児玉友雄"
+        }
+	}
+
+	division = { # 第十九師団
+		division_name = {
+			is_name_ordered = yes
+			name_order = 19
+		}
+
+		location = 898
+		division_template = "Hohei Shidan"
+
+		start_experience_factor = 0.3
+		divisional_commander_xp = 1000
+
+		officer = {
+            name = "鈴木美通"
+        }
+	}
+
+	division = { # 第二十師団
+		division_name = {
+			is_name_ordered = yes
+			name_order = 20
+		}
+
+		location = 7125
+		division_template = "Hohei Shidan"
+
+		start_experience_factor = 0.3
+		divisional_commander_xp = 1000
+
+		officer = {
+            name = "三宅光治"
+        }
+	}
+
+	division = { # 騎兵第二旅団
+		name = "Kihei Dai 2 Ryodan"
+
+		location = 4188
+		division_template = "Kihei Ryodan"
+		start_experience_factor = 0.3
+
+		officer = {
+            name = "山岡潔"
+        }
+	}
+
+	division = { # 独立混成第一旅団
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+
+		location = 4642
+		division_template = "Dokuritsu Konsei Ryodan Kou"
+		start_experience_factor = 0.5
+		force_equipment_variants = { light_tank_chassis_0 = { owner = JAP version_name = "Type 94 Tankette" } }
+		officer = {
+            name = JAP_susumu_fujita_1MBs
+            portraits = {
+                army = {
+					large = GFX_portrait_JAP_susumu_fujita_army
+					small = GFX_idea_JAP_susumu_fujita_army
+                }
+            }
+        }
+		officer = {
+            name = JAP_yoshio_shinoduka_1MBs
+            portraits = {
+                army = {
+					large = GFX_portrait_JAP_yoshio_shinoduka_army
+					small = GFX_idea_JAP_yoshio_shinoduka_army
+                }
+            }
+        }
+		officer = {
+            name = JAP_kouji_sakai_1MBs
+            portraits = {
+                army = {
+					large = GFX_portrait_JAP_kouji_sakai_army
+					small = GFX_idea_JAP_kouji_sakai_army
+                }
+            }
+        }
+		officer = {
+            name = JAP_masaomi_yasuoka_1MBs
+            portraits = {
+                army = {
+					large = GFX_portrait_JAP_masaomi_yasuoka_army
+					small = GFX_idea_JAP_masaomi_yasuoka_army
+                }
+            }
+        }
+	}
+
+	division = { # 独立混成第十一旅団
+		division_name = {
+			is_name_ordered = yes
+			name_order = 11
+		}
+
+		location = 881
+		division_template = "Dokuritsu Konsei Ryodan Otsu"
+		start_experience_factor = 0.5
+
+		officer = {
+            name = "川岸文三郎"
+        }
+	}
+
+	division = { # 台湾守備隊
+		name = "Taiwan Shubi-tai"
+
+		location = 7186
+		division_template = "Taiwan Shubi-tai"
+		start_experience_factor = 0.3
+
+		officer = {
+            name = "福田袈裟雄"
+        }
+	}
+
+
+	division = { # 第一独立守備隊
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+
+		location = 11771
+		division_template = "Dokuritsu Shubi-tai"
+		start_experience_factor = 0.5
+
+		officer = {
+            name = JAP_kazuo_mike_BTG
+            portraits = {
+                army = {
+					large = GFX_portrait_JAP_kazuo_mike_army
+					small = GFX_idea_JAP_kazuo_mike_army
+                }
+            }
+        }
+	}
+
+	division = { # 第二独立守備隊
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+
+		location = 4572
+		division_template = "Dokuritsu Shubi-tai"
+		start_experience_factor = 0.5
+
+		##officer = {  }
+	}
+
+	division = { # 第三独立守備隊
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+
+		location = 7526
+		division_template = "Dokuritsu Shubi-tai"
+		start_experience_factor = 0.5
+
+		##officer = {  }
+	}
+
+	division = { # 第四独立守備隊
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
+
+		location = 810
+		division_template = "Dokuritsu Shubi-tai"
+		start_experience_factor = 0.5
+
+		officer = {
+            name = "清水喜重"
+        }
+	}
+
+
+	division = { # 上海海軍特別陸戦隊
+		name = "Shanghai Kaigun Tokubetsu-Rikusen-tai"
+
+		location = 7014 #上海
+		division_template = "Rikusen-tai"
+		start_experience_factor = 0.5
+
+		officer = {
+            name = "近藤英次郎"
+            portraits = {
+                army = {
+					large = "gfx/leaders/JAP/Portrait_Japan_Generic_navy_1.dds"
+					small = "gfx/interface/ideas/idea_JAP_generic_navy_1.dds"
+                }
+            }
+        }
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "JAP"
+		}
+		requested_factories = 3
+		progress = 0.1
+		efficiency = 50
+		industrial_manufacturer = mio:JAP_tokyo_arsenal_organization
+	}
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = "JAP"
+		}
+		requested_factories = 1
+		progress = 0.3
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = artillery_equipment_1
+			creator = "JAP"
+		}
+		requested_factories = 1
+		progress = 0.4
+		efficiency = 50
+		industrial_manufacturer = mio:JAP_osaka_army_arsenal_artillery_organization
+	}
+	add_equipment_production = {
+		equipment = {
+			type = light_tank_chassis_1
+			creator = "JAP"
+			version_name = "Type 95 Ha-Go"
+		}
+		requested_factories = 1
+		progress = 0.4
+		efficiency = 50
+		industrial_manufacturer = mio:JAP_osaka_army_arsenal_organization
+	}
+}
